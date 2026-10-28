@@ -1,0 +1,36 @@
+{
+  "name": "envlint",
+  "version": "0.1.0",
+  "description": "A lightweight, value-safe environment file linter.",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "envlint": "dist/bin.js"
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --noEmit",
+    "test": "npm run build && npm run test:unit",
+    "test:unit": "node --test",
+    "prepack": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulkitdotio/envlint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pulkitdotio/envlint/issues"
+  },
+  "homepage": "https://github.com/pulkitdotio/envlint#readme",
+  "license": "MIT",
+  "author": "pulkitdotio",
+  "keywords": ["cli", "dotenv", "environment", "lint", "validation"],
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^7.0.2"
+  }
+}

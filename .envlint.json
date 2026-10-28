@@ -1,0 +1,10 @@
+{
+  "variables": {
+    "APP_NAME": { "type": "string" },
+    "PORT": { "type": "number" },
+    "DEBUG": { "type": "boolean" },
+    "API_URL": { "type": "url" },
+    "API_TOKEN": { "required": true, "type": "string", "allowEmpty": false },
+    "OPTIONAL_LABEL": { "required": false, "type": "string", "allowEmpty": true }
+  }
+}
