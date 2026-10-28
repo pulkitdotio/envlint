@@ -260,6 +260,3 @@ custom types, and semantic constraints such as numeric ranges are outside its
 scope. Files are read as UTF-8. It does not replace secret scanning or application
 configuration validation.
 
-## License
-
-[MIT](LICENSE), copyright 2026 pulkitdotio.
